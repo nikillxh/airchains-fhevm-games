@@ -7,7 +7,7 @@ import { deployContract } from "./src/deploy.js";
 
 let { networkUrl, mnemonic } = getEnvironmentVariables();
 let { privateKeyTest } = deriveWalletsAndDetails(mnemonic);
-let contractName = "EncryptedERC20.sol";
+let contractName = "TicTacToe.sol";
 
 async function deployAndSave() {
   try {
